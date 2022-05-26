@@ -1,7 +1,5 @@
 import DiscordJS, { MessageAttachment } from 'discord.js';
 import { key } from '../main';
-import Canvas from '@napi-rs/canvas';
-import { readFile } from 'fs/promises';
 
 export function denick(message: DiscordJS.Message, args: string[]): void {
     const nick = args[2];
