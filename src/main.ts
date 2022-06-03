@@ -1,4 +1,4 @@
-import DiscordJS, { Channel, Intents } from 'discord.js';
+import DiscordJS, { Intents } from 'discord.js';
 import { CommandHandler } from "./CommandHandler";
 import dotenv from 'dotenv';
 
